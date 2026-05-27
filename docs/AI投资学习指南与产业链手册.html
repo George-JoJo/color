@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI 投资学习指南与产业链手册</title>
+  <style>
+    @page { margin: 2cm; size: A4; }
+    body {
+      font-family: "Noto Sans CJK SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+      font-size: 11pt;
+      line-height: 1.55;
+      color: #1a1a1a;
+      max-width: 210mm;
+      margin: 0 auto;
+      padding: 1.5cm;
+    }
+    h1 { font-size: 22pt; border-bottom: 2px solid #2563eb; padding-bottom: 0.3em; margin-top: 0; }
+    h2 { font-size: 16pt; color: #1e40af; margin-top: 1.8em; page-break-after: avoid; }
+    h3 { font-size: 13pt; color: #334155; margin-top: 1.2em; page-break-after: avoid; }
+    h4 { font-size: 11.5pt; margin-top: 1em; }
+    .cover { text-align: center; padding: 3cm 0 2cm; page-break-after: always; }
+    .cover h1 { border: none; font-size: 26pt; }
+    .cover .sub { font-size: 14pt; color: #64748b; margin-top: 1em; }
+    .cover .date { font-size: 11pt; color: #94a3b8; margin-top: 2em; }
+    .toc { page-break-after: always; }
+    .toc ul { list-style: none; padding-left: 0; }
+    .toc li { margin: 0.4em 0; border-bottom: 1px dotted #cbd5e1; }
+    .toc a { color: #2563eb; text-decoration: none; }
+    table { width: 100%; border-collapse: collapse; margin: 0.8em 0; font-size: 9.5pt; page-break-inside: avoid; }
+    th, td { border: 1px solid #cbd5e1; padding: 6px 8px; text-align: left; vertical-align: top; }
+    th { background: #f1f5f9; font-weight: 600; }
+    tr:nth-child(even) { background: #f8fafc; }
+    .note { background: #fffbeb; border-left: 4px solid #f59e0b; padding: 0.6em 1em; margin: 1em 0; font-size: 10pt; }
+    .disclaimer { background: #fef2f2; border-left: 4px solid #ef4444; padding: 0.6em 1em; margin: 1em 0; font-size: 9.5pt; }
+    pre, .flow { font-family: monospace; font-size: 9pt; background: #f8fafc; padding: 1em; border: 1px solid #e2e8f0; white-space: pre-wrap; page-break-inside: avoid; }
+    a { color: #2563eb; word-break: break-all; }
+    .part { page-break-before: always; }
+    .part:first-of-type { page-break-before: auto; }
+    ul { margin: 0.4em 0; }
+    li { margin: 0.2em 0; }
+    .checkbox { font-family: monospace; }
+  </style>
+</head>
+<body>
+
+<div class="cover">
+  <h1>AI 投资学习指南<br/>与产业链手册</h1>
+  <p class="sub">投资目的学习清单 · 产业链与头部公司全景</p>
+  <p class="date">整理日期：2026年5月</p>
+  <p class="sub" style="font-size:10pt;margin-top:3em;">本文档仅供学习与研究参考，不构成投资建议</p>
+</div>
+
+<div class="toc">
+  <h2>目录</h2>
+  <ul>
+    <li><strong>第一篇</strong> 投资目的的 AI 学习清单与链接</li>
+    <li>&nbsp;&nbsp;一、学习目标</li>
+    <li>&nbsp;&nbsp;二、阶段一：概念打底</li>
+    <li>&nbsp;&nbsp;三、阶段二：产业链与投资地图</li>
+    <li>&nbsp;&nbsp;四、阶段三：商业化与「钱怎么赚」</li>
+    <li>&nbsp;&nbsp;五、阶段四：竞争格局与关键玩家</li>
+    <li>&nbsp;&nbsp;六、阶段五：风险、政策与防踩坑</li>
+    <li>&nbsp;&nbsp;七、阶段六：研究方法与信息源</li>
+    <li>&nbsp;&nbsp;八、推荐学习顺序与最小必读</li>
+    <li><strong>第二篇</strong> AI 产业链及上下游头部公司</li>
+    <li>&nbsp;&nbsp;一、产业链框架</li>
+    <li>&nbsp;&nbsp;二、分环节拆解与头部公司</li>
+    <li>&nbsp;&nbsp;三、全栈型公司</li>
+    <li>&nbsp;&nbsp;四、环节对照总表</li>
+    <li>&nbsp;&nbsp;五、资金流向与产业趋势</li>
+    <li>&nbsp;&nbsp;六、按投资主题快速索引</li>
+  </ul>
+</div>
+
+<!-- ========== PART 1 ========== -->
+<div class="part" id="part1">
+<h1>第一篇：投资目的的 AI 学习清单与链接</h1>
+
+<h2>一、学习目标（投资视角）</h2>
+<p>学完应能回答：</p>
+<ul>
+  <li>AI 的钱在<strong>哪几层</strong>赚、流向谁</li>
+  <li><strong>训练 vs 推理 vs Agent</strong> 对算力、收入意味着什么</li>
+  <li>如何区分<strong>真需求 vs 概念炒作</strong></li>
+  <li>看一家 AI 公司要盯哪些<strong>指标与风险</strong></li>
+</ul>
+
+<h2>二、阶段一：概念打底（约 1 周，每天 30–60 分钟）</h2>
+<table>
+  <tr><th>任务</th><th>链接</th><th>说明</th></tr>
+  <tr><td>《零基础学 AI》第 1–3 章</td><td><a href="https://yeasy.gitbook.io/ai_beginner_guide">yeasy.gitbook.io/ai_beginner_guide</a></td><td>AI / ML / 深度学习 / 大模型关系</td></tr>
+  <tr><td>AI For Everyone（吴恩达）</td><td><a href="https://www.coursera.org/learn/ai-for-everyone">coursera.org/learn/ai-for-everyone</a></td><td>商业与战略，非技术友好</td></tr>
+  <tr><td>3Blue1Brown 神经网络第 1 集</td><td><a href="https://www.3blue1brown.com/lessons/neural-networks">3blue1brown.com/lessons/neural-networks</a></td><td>建立「模型=调参数」直觉</td></tr>
+  <tr><td>图解 Transformer</td><td><a href="https://jalammar.github.io/illustrated-transformer/">jalammar.github.io/illustrated-transformer</a></td><td>大模型技术底座</td></tr>
+</table>
+<p><strong>阶段一自测：</strong>能否用 3 句话解释「大模型怎么赚钱、为什么费电」。</p>
+
+<h2>三、阶段二：产业链与投资地图（约 1–2 周）</h2>
+<table>
+  <tr><th>任务</th><th>链接</th><th>说明</th></tr>
+  <tr><td>五层价值链</td><td><a href="https://www.aixq.cc/23878.html">aixq.cc/23878.html</a></td><td>能源→芯片→云→模型→应用</td></tr>
+  <tr><td>上中下游通俗版</td><td><a href="https://www.qiuguojihua.com/journalism/realtime/1123.html">qiuguojihua.com</a></td><td>算力/数据/应用三层</td></tr>
+  <tr><td>五层投资框架</td><td><a href="https://us-wealth-guide.com/2026-ai-five-layer-investment-map/">us-wealth-guide.com</a></td><td>公开标的示例与风险</td></tr>
+  <tr><td>Stanford AI Index</td><td><a href="https://hai.stanford.edu/ai-index">hai.stanford.edu/ai-index</a></td><td>年度宏观数据</td></tr>
+  <tr><td>2026 经济章 PDF</td><td><a href="https://hai.stanford.edu/assets/files/ai_index_report_2026_chapter_4_economy.pdf">AI Index 经济章</a></td><td>投资、融资、采用率</td></tr>
+  <tr><td>12 条核心结论</td><td><a href="https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report">Stanford HAI</a></td><td>2 小时建立全球图景</td></tr>
+</table>
+<pre>能源 → 芯片/设备 → 云/数据中心 → 模型 → 应用/Agent
+（每层标注：龙头、商业模式、CAPEX/OPEX、竞争格局）</pre>
+
+<h2>四、阶段三：商业化与「钱怎么赚」（约 1 周）</h2>
+<table>
+  <tr><th>任务</th><th>链接</th><th>说明</th></tr>
+  <tr><td>AI Index 经济章</td><td>见上 PDF</td><td>ARR、CAPEX、推理成本</td></tr>
+  <tr><td>McKinsey State of AI</td><td><a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai">mckinsey.com</a></td><td>企业采用与 ROI</td></tr>
+  <tr><td>a16z AI 洞察</td><td><a href="https://a16z.com/ai/">a16z.com/ai</a></td><td>创业与融资视角</td></tr>
+</table>
+<h3>投资要盯的指标</h3>
+<table>
+  <tr><th>类型</th><th>指标</th></tr>
+  <tr><td>模型层</td><td>ARR、Token 量、API 收入、毛利率、推理成本</td></tr>
+  <tr><td>算力层</td><td>Capex 指引、GPU 出货、数据中心上架节奏</td></tr>
+  <tr><td>应用层</td><td>付费客户数、续费率、人效提升是否可量化</td></tr>
+  <tr><td>全行业</td><td>渗透率、监管、开源对定价的冲击</td></tr>
+</table>
+
+<h2>五、阶段四：竞争格局与关键玩家（持续更新）</h2>
+<table>
+  <tr><th>类型</th><th>链接/方式</th></tr>
+  <tr><td>模型层 Research</td><td>openai.com · anthropic.com · ai.google · ai.meta.com</td></tr>
+  <tr><td>芯片</td><td>investor.nvidia.com</td></tr>
+  <tr><td>云</td><td>AWS / Azure / GCP 财报 IR</td></tr>
+  <tr><td>中国大厂</td><td>阿里、字节、腾讯等财报 AI/Capex 表述</td></tr>
+  <tr><td>开源生态</td><td><a href="https://huggingface.co">huggingface.co</a></td></tr>
+</table>
+
+<h2>六、阶段五：风险、政策与防踩坑（约 3–5 天）</h2>
+<table>
+  <tr><th>任务</th><th>链接</th></tr>
+  <tr><td>AI Index 政策章</td><td><a href="https://hai.stanford.edu/ai-index/2026-ai-index-report">完整报告</a></td></tr>
+  <tr><td>欧盟 AI Act</td><td><a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai">EC 官网</a></td></tr>
+  <tr><td>SEC 财报</td><td><a href="https://www.sec.gov/edgar">sec.gov/edgar</a></td></tr>
+</table>
+<h3>投资风险清单</h3>
+<table>
+  <tr><th>风险</th><th>投资含义</th></tr>
+  <tr><td>技术迭代快</td><td>设备贬值、落后一代即承压</td></tr>
+  <tr><td>推理成本下降</td><td>利好应用，挤压纯模型溢价</td></tr>
+  <tr><td>开源</td><td>削弱部分中间层毛利</td></tr>
+  <tr><td>监管</td><td>医疗、金融等落地节奏</td></tr>
+  <tr><td>地缘与供应链</td><td>芯片、制程、出口管制</td></tr>
+  <tr><td>估值与叙事</td><td>Capex 激增但 ROI 未兑现</td></tr>
+</table>
+
+<h2>七、阶段六：研究方法与信息源（长期）</h2>
+<ul>
+  <li>每年刷新：<strong>Stanford AI Index</strong> 经济章</li>
+  <li>持仓公司：<strong>10-K / 20-F</strong> Risk Factors 中 AI 段落</li>
+  <li>中文动态：机器之心、量子位、36氪（需交叉验证）</li>
+  <li>日报习惯（15 分钟）：大厂 Capex、监管、关注公司财报</li>
+</ul>
+
+<h2>八、推荐学习顺序</h2>
+<table>
+  <tr><th>周次</th><th>重点</th></tr>
+  <tr><td>第 1 周</td><td>阶段一 + AI Index 12 条 takeaway</td></tr>
+  <tr><td>第 2 周</td><td>五层价值链 + 经济章 PDF</td></tr>
+  <tr><td>第 3 周</td><td>McKinsey / a16z + 2 份财报</td></tr>
+  <tr><td>第 4 周起</td><td>按赛道深挖（算力/模型/应用）</td></tr>
+</table>
+<h3>最小必读 5 件（按风格）</h3>
+<table>
+  <tr><th>风格</th><th>必读</th></tr>
+  <tr><td>大盘科技</td><td>AI Index 经济章 + 3Blue1Brown + 五层价值链</td></tr>
+  <tr><td>算力/半导体</td><td>AI Index + NVDA IR + 算力研报</td></tr>
+  <tr><td>应用/SaaS</td><td>McKinsey + AI For Everyone + Agent 章节</td></tr>
+  <tr><td>一级/VC</td><td>a16z + AI Index 融资数据 + Hugging Face</td></tr>
+</table>
+</div>
+
+<!-- ========== PART 2 ========== -->
+<div class="part" id="part2">
+<h1>第二篇：AI 产业链及上下游头部公司</h1>
+
+<h2>一、产业链框架</h2>
+<h3>框架 A：五层价值链</h3>
+<pre>应用层 → 模型层 → 云/数据中心 → 芯片层 → 能源/电力
+（用户付费、广告、订阅反哺全链）</pre>
+<table>
+  <tr><th>层级</th><th>核心功能</th><th>商业模式</th></tr>
+  <tr><td>L5 应用</td><td>AI 嵌入产品/行业</td><td>订阅、按 seat、按效果</td></tr>
+  <tr><td>L4 模型</td><td>大模型训练与 API</td><td>Token、API、企业授权</td></tr>
+  <tr><td>L3 云与数据中心</td><td>卖算力与托管</td><td>IaaS/PaaS、智算租赁</td></tr>
+  <tr><td>L2 芯片与硬件</td><td>算力、网络、服务器</td><td>卖芯片、设备、代工</td></tr>
+  <tr><td>L1 能源</td><td>电、电网、散热</td><td>电价、PPA、液冷</td></tr>
+</table>
+<h3>框架 B：上中下游</h3>
+<table>
+  <tr><th>环节</th><th>内容</th></tr>
+  <tr><td>上游</td><td>芯片设计/制造、EDA、设备、HBM、电力</td></tr>
+  <tr><td>中游</td><td>服务器、光模块、数据中心、云计算</td></tr>
+  <tr><td>下游</td><td>大模型、AI 应用、行业解决方案</td></tr>
+</table>
+
+<h2>二、分环节拆解与头部公司</h2>
+
+<h3>1. 能源与电力</h3>
+<table>
+  <tr><th>子环节</th><th>全球头部</th><th>中国相关</th></tr>
+  <tr><td>发电与公用事业</td><td>与美大厂签 PPA 的电力公司</td><td>国家电网体系、地方能源</td></tr>
+  <tr><td>液冷/散热</td><td>Vertiv、Schneider Electric</td><td>英维克、佳力图等</td></tr>
+</table>
+
+<h3>2. 半导体与算力芯片</h3>
+<table>
+  <tr><th>子环节</th><th>全球头部</th><th>中国头部</th></tr>
+  <tr><td>GPU / AI 加速卡</td><td>NVIDIA、AMD</td><td>华为昇腾、寒武纪、海光、昆仑芯、平头哥、摩尔线程、沐曦</td></tr>
+  <tr><td>定制 AI 芯片</td><td>Google TPU、Amazon Trainium；Broadcom、Marvell</td><td>昇腾、平头哥、昆仑芯</td></tr>
+  <tr><td>晶圆代工</td><td>TSMC</td><td>中芯国际</td></tr>
+  <tr><td>半导体设备</td><td>ASML、Applied Materials、Lam、KLA</td><td>北方华创、中微公司等</td></tr>
+  <tr><td>HBM / 存储</td><td>SK hynix、Samsung、Micron</td><td>长鑫、兆易等</td></tr>
+  <tr><td>EDA / IP</td><td>Synopsys、Cadence、ARM</td><td>华大九天等</td></tr>
+</table>
+
+<h3>3. 服务器、网络与数据中心</h3>
+<table>
+  <tr><th>子环节</th><th>全球头部</th><th>中国头部</th></tr>
+  <tr><td>AI 服务器</td><td>Dell、Supermicro、HPE；ODM：Quanta、Wistron</td><td>浪潮、联想、新华三、超聚变、中科曙光</td></tr>
+  <tr><td>网络设备</td><td>Arista、Cisco</td><td>华为、新华三、锐捷</td></tr>
+  <tr><td>光模块</td><td>Coherent、Lumentum 等</td><td>中际旭创、新易盛、天孚通信</td></tr>
+  <tr><td>IDC / 托管</td><td>Equinix、Digital Realty</td><td>万国数据、世纪互联、运营商 IDC</td></tr>
+  <tr><td>GPU 云</td><td>CoreWeave、Lambda</td><td>各类智算中心运营商</td></tr>
+</table>
+
+<h3>4. 云计算与智算平台</h3>
+<table>
+  <tr><th>类型</th><th>全球</th><th>中国</th></tr>
+  <tr><td>公有云/智算</td><td>AWS、Azure、GCP、Oracle Cloud</td><td>阿里云、腾讯云、华为云、百度云、火山引擎</td></tr>
+  <tr><td>模型绑定</td><td>Azure↔OpenAI；GCP↔Gemini；AWS↔Anthropic</td><td>阿里↔通义；百度↔文心；华为↔盘古</td></tr>
+</table>
+<p>2026 年：美国四大 hyperscaler Capex 合计约 <strong>7000 亿美元量级</strong>（口径因研报而异）；中国 BAT+字节等持续投入智算。</p>
+
+<h3>5. 大模型层</h3>
+<table>
+  <tr><th>类型</th><th>全球</th><th>中国</th></tr>
+  <tr><td>闭源前沿</td><td>OpenAI、Anthropic、Google Gemini、xAI Grok</td><td>文心、通义、豆包、混元</td></tr>
+  <tr><td>开源/开放权重</td><td>Meta Llama、Mistral</td><td>DeepSeek、智谱、月之暗面、MiniMax 等</td></tr>
+  <tr><td>行业/政企</td><td>云厂商企业版</td><td>盘古及垂直模型</td></tr>
+</table>
+
+<h3>6. 应用层</h3>
+<table>
+  <tr><th>场景</th><th>全球示例</th><th>中国示例</th></tr>
+  <tr><td>办公/搜索/助手</td><td>Microsoft Copilot、Google、Apple Intelligence</td><td>百度、通义 App、豆包、Kimi</td></tr>
+  <tr><td>编程/开发</td><td>GitHub Copilot、Cursor</td><td>通义灵码、文心快码</td></tr>
+  <tr><td>企业 SaaS</td><td>Salesforce、ServiceNow、Adobe</td><td>用友、金蝶、钉钉、飞书 AI</td></tr>
+  <tr><td>数据/MLOps</td><td>Databricks、Snowflake、Scale AI</td><td>行业 ISV</td></tr>
+  <tr><td>垂直行业</td><td>Palantir、医疗/金融厂商</td><td>金融、医疗、制造「AI+」</td></tr>
+</table>
+
+<h2>三、全栈型公司（跨层巨头）</h2>
+<table>
+  <tr><th>区域</th><th>公司</th><th>典型布局</th></tr>
+  <tr><td>美国</td><td>Google</td><td>TPU + GCP + Gemini + 搜索</td></tr>
+  <tr><td>美国</td><td>Microsoft</td><td>Azure + OpenAI + Copilot</td></tr>
+  <tr><td>美国</td><td>Amazon</td><td>AWS + Trainium + Anthropic + 电商</td></tr>
+  <tr><td>美国</td><td>Meta</td><td>自研芯片 + Llama + 广告</td></tr>
+  <tr><td>中国</td><td>阿里巴巴</td><td>平头哥 + 阿里云 + 通义</td></tr>
+  <tr><td>中国</td><td>百度</td><td>昆仑芯 + 智能云 + 文心</td></tr>
+  <tr><td>中国</td><td>华为</td><td>昇腾 + 华为云 + 盘古（偏 B 端）</td></tr>
+  <tr><td>中国</td><td>字节跳动</td><td>火山引擎 + 豆包（芯片投入中）</td></tr>
+  <tr><td>中国</td><td>腾讯</td><td>腾讯云 + 混元</td></tr>
+</table>
+<p>国内报道常将 <strong>百度、阿里、华为</strong> 列为已跑通「芯+云+模」商业化的代表；字节、腾讯云+模强，芯片仍在投入期。</p>
+
+<h2>四、环节 × 全球龙头 × 中国龙头（总表）</h2>
+<table>
+  <tr><th>环节</th><th>全球头部</th><th>中国头部</th></tr>
+  <tr><td>能源/液冷</td><td>Vertiv、Schneider、电力公用事业</td><td>液冷与电力配套厂商</td></tr>
+  <tr><td>AI 芯片</td><td>NVIDIA、AMD、Broadcom</td><td>昇腾、寒武纪、海光、昆仑芯、平头哥</td></tr>
+  <tr><td>制造/设备</td><td>TSMC、ASML、SK hynix</td><td>中芯国际、北方华创等</td></tr>
+  <tr><td>服务器/光模块</td><td>Supermicro、Dell、Arista</td><td>浪潮、中际旭创、新易盛</td></tr>
+  <tr><td>云计算</td><td>AWS、Azure、GCP</td><td>阿里云、腾讯云、华为云、百度云</td></tr>
+  <tr><td>大模型</td><td>OpenAI、Anthropic、Google、Meta</td><td>百度、阿里、字节、DeepSeek、华为、腾讯</td></tr>
+  <tr><td>应用</td><td>Microsoft、Google、Salesforce</td><td>钉钉/飞书、垂直 ISV、超级 App</td></tr>
+</table>
+
+<h2>五、资金流向与产业趋势</h2>
+<pre>用户/企业付费（应用、订阅、API）
+    ↓ 模型公司（OpenAI、Anthropic、国内大模型厂）
+    ↓ 云厂商（Azure、AWS、GCP、阿里云…）
+    ↓ 芯片（NVIDIA、AMD、昇腾、昆仑芯…）
+    ↓ 代工/设备（TSMC、ASML、HBM）
+    ↓ 电力、数据中心、液冷</pre>
+<h3>2025–2026 主要趋势</h3>
+<ol>
+  <li><strong>Capex 超级周期</strong>：资金集中在芯片与数据中心；ROI 取决于模型与应用 ARR。</li>
+  <li><strong>训练 → 推理 + Agent</strong>：推理算力、低延迟、内存带宽需求上升。</li>
+  <li><strong>定制芯片分流 GPU</strong>：TPU、Trainium 等长期分流，短期 NVIDIA 仍占主导。</li>
+  <li><strong>开源挤压定价</strong>：利好应用层，压制无壁垒中间层。</li>
+  <li><strong>地缘与国产替代</strong>：中国强调国芯+国云+国产模型。</li>
+</ol>
+
+<h2>六、按投资主题快速索引</h2>
+<table>
+  <tr><th>关注主题</th><th>重点环节</th><th>跟踪类型</th></tr>
+  <tr><td>算力景气</td><td>芯片、服务器、光模块</td><td>NVIDIA、TSMC、中际旭创、浪潮、昇腾链</td></tr>
+  <tr><td>卖水人</td><td>云与 IDC</td><td>AWS、Azure、阿里、腾讯</td></tr>
+  <tr><td>模型赢家</td><td>模型层</td><td>OpenAI、Anthropic、百度、阿里、DeepSeek</td></tr>
+  <tr><td>应用落地</td><td>应用层</td><td>Microsoft、垂直 SaaS、行业 ISV</td></tr>
+  <tr><td>全栈护城河</td><td>跨层</td><td>Google、Microsoft、阿里、百度、华为</td></tr>
+  <tr><td>能源瓶颈</td><td>电力、液冷</td><td>公用事业、Vertiv、国内液冷龙头</td></tr>
+</table>
+</div>
+
+<div class="disclaimer">
+  <strong>免责声明：</strong>本文档由对话内容整理而成，仅供学习与研究参考，不构成任何投资建议。公司与数据会随市场变化，请以最新财报及官方披露为准。链接访问需自行承担网络环境风险。
+</div>
+
+</body>
+</html>
